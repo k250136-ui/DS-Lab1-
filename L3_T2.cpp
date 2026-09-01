@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void ascending(int arr[], int n)
+void sort(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
@@ -32,9 +32,9 @@ int main()
         cin >> scores[i];
     }
 
-    ascending(scores, n);
+    sort(scores, n);
 
-    cout << "Scores in ascending order: ";
+    cout << "Scores in sort order: ";
 
     for (int i = 0; i < n; i++)
     {
